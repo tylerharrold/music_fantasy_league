@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tylerharrold/music_fantasy_league/issues"
   },
-  "homepage": "https://github.com/tylerharrold/music_fantasy_league#readme"
+  "homepage": "https://github.com/tylerharrold/music_fantasy_league#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
