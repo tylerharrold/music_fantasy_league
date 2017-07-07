@@ -1,0 +1,19 @@
+{
+  "name": "music_fantasy_league",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerharrold/music_fantasy_league.git"
+  },
+  "author": "Tyler Harrold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerharrold/music_fantasy_league/issues"
+  },
+  "homepage": "https://github.com/tylerharrold/music_fantasy_league#readme"
+}
