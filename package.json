@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/tylerharrold/music_fantasy_league#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
   }
 }

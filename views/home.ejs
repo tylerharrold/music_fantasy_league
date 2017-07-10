@@ -1,0 +1,6 @@
+<% include partials/header %> 
+	<p>Hello from home</p>
+	<p> my redirect uri is <%= connection.redirectURI %></p>
+	<a href="https://accounts.spotify.com/authorize?client_id=<%= connection.clientID %>&response_type=code&redirect_uri=<%= connection.redirectURI %>&scope=user-read-private user-read-email&show_dialog=true">Login Through Spotify</a>
+<% include partials/footer %>
+
