@@ -2,6 +2,19 @@ var express = require("express");
 var app = express();
 var request = require("request");
 var clientData = require("./clientData.js");
+var mongoose = require("mongoose");
+var seedDB = require("./seeds.js");
+
+// connect to our database
+mongoose.connect("mongodb://localhost/music_fantasy_league"); 
+
+// seed our db
+seedDB();
+
+// load our schemas
+
+// FOR TESTING - seed our database
+
 
 // set the view engine to ejs
 app.set("view engine" , "ejs");
